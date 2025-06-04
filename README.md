@@ -31,11 +31,7 @@ By bridging the gap between microbiota shifts and metabolic capacity, this tool 
 - Script: normalize_16S_matrix.py
 
 ### Phase 2: Statistical Selection of Relevant Taxa
-**Goal:** select taxa that: 
-    - Significantly change in abundance (p-value)
-    - Have meaningul effect size (LDA score)
-    - Are consistently present (core microbiome)
-    - Show non-negligible relative abundance (Mean abundance)
+**Goal:** select taxa that significantly change in abundance (p-value), have meaningul effect size (LDA score), are consistently present (core microbiome) and show non-negligible relative abundance (Mean abundance)
 - Input:
   - univar_test_output.csv
   - taxa_abund.csv
