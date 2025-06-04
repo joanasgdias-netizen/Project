@@ -22,7 +22,7 @@ By bridging the gap between microbiota shifts and metabolic capacity, this tool 
 ## Pipeline Structure
 
 ### Phase 1: Normalization
-Goal: Normalize raw taxonomic abundance data based on 16S rRNA copy number to ensure more biologically meaningful relative abundance
+**Goal:** Normalize raw taxonomic abundance data based on 16S rRNA copy number to ensure more biologically meaningful relative abundance
 - Input:
   - data_file.csv (output from sequencing pipeline or provider)
   - 16S_copy_numbers.csv (taxon-to-copy-number reference obtained from rrnDB)
@@ -31,7 +31,7 @@ Goal: Normalize raw taxonomic abundance data based on 16S rRNA copy number to en
 - Script: normalize_16S_matrix.py
 
 ### Phase 2: Statistical Selection of Relevant Taxa
-Goal: select taxa that: 
+**Goal:** select taxa that: 
   - Significantly change in abundance (p-value)
   - Have meaningul effect size (LDA score)
   - Are consistently present (core microbiome)
@@ -47,7 +47,7 @@ Goal: select taxa that:
 - Script: select_taxa.py
 
 ### Phase 3: Functional Mapping
-Goal: Link selected bacteria to KEGG pathways by matchng predicted enzymes (EC numbers) to pathways enzyme sets.
+**Goal:** Link selected bacteria to KEGG pathways by matchng predicted enzymes (EC numbers) to pathways enzyme sets.
 - Input:
   - organisms.csv: with Genus and Species columns
   - pathway_ids.txt: list of KEGG pathway IDs (e.g., map00500)
@@ -57,7 +57,6 @@ Goal: Link selected bacteria to KEGG pathways by matchng predicted enzymes (EC n
 ---
 
 ## Requirements
-
 - Python 3.7+
 - MicrobiomeAnalyst (web interface)
 - Required databases:
@@ -65,9 +64,9 @@ Goal: Link selected bacteria to KEGG pathways by matchng predicted enzymes (EC n
   - rrnDB
 
 ---
-
 ## Authors and Acknoledgements 
-Developed by Vanessa Rodriguez, as part of a Project in Bioinformatics Master at University of Minho, under the supervision of Professor Clarisse Nober and Professor Andreia Salvador
+Developed by Vanessa Rodriguez, as part of a Project in a Bioinformatic Master at University of Minho, under the supervision of Professor Clarisse Nobre and Professor Andreia Salvador 
+
 ---
 
 
