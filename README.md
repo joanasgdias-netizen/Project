@@ -50,7 +50,7 @@ By bridging the gap between microbiota shifts and metabolic capacity, this tool 
 - Tools: KEGG REST API
 - Output: compatibility_table_with_names.csv: which bacteria have which enzymes in which pathways
 - Script: pathway_bacteria_ec_analysis.py
-**The results obtained in the output file, can be analyzed using interactive_table.py which creates an interactive table that helps visualize and analyse the results**
+- The results obtained in the output file, can be analyzed using interactive_table.py which creates an interactive table that helps visualize and analyse the results
 ---
 
 ## Requirements
