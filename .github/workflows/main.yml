@@ -1,2 +1,3 @@
-- name: 16s
-  run: normalize_16s
+name: 16s
+    steps:
+    - run: normalize 16S
