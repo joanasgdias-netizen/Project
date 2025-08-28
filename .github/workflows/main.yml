@@ -1,3 +1,1 @@
-name: 16s
-    steps:
-    - run: normalize 16S
+
