@@ -15,7 +15,7 @@ import pandas as pd
 import numpy as np
 
 # === Read the original CSV file  ===
-with open("INSERT NAME HERE.csv", 'r', encoding='utf-8') as f:
+with open("prebiotic_data_file.csv", 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 # Extract #NAME and #CLASS
