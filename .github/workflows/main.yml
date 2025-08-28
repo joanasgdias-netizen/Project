@@ -1,2 +1,3 @@
-
-run: Scripts/normalize_16s.py
+jobs:
+    steps:
+      - run: Scripts/normalize_16s.py
